@@ -1,22 +1,11 @@
 
-### Markdown
+## NS-FDTDの論文の解説
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+FDTDは汎用性が高いが位相誤差が蓄積するという問題がある
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+NS-FDTDは長方形の格子を用いることでFDTDに比べ位相誤差を減らすことが出来る。
+しかし、NS-FDTDは異方性媒質には使えない、安定条件が分らないなどの問題があった。(異方性媒質 : 磁化プラズマ、磁化フェライト等)
+この論文ではFDラプラシアンを用いることで異方性媒質を扱えるようにしたことと、安定条件を導いたことについて書かれている。
 
 [Link](url) and ![Image](src)
 ```
